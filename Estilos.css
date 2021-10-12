@@ -48,14 +48,30 @@
 }
 .info{
     text-align: center;
+    width: 70%;
 }
 .sub_info_container{
     background: url(./img/group16@2x.png);
     background-position:right;
     background-attachment: contain;
-    background-size:50%;
+    background-size:70%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: end;
+}
+.title{
+    font-size: 5vh;
+    font-weight: 600;
+    background-color: tomato;
+    height: 10px;
+}
+.sub_info{
+    width: 50%;
+}
+button{
+    width: 200px;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
 }
