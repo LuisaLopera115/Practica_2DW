@@ -26,10 +26,14 @@
 }
 
 .main_container div{
-    background-color: aquamarine;
     padding: 1em;
 }
-.image{
+#image{
+    background: url(./img/unionImagenes.png);
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    background-color: brown;
 }
 .info_contairner{
     display: grid;
@@ -37,10 +41,17 @@
     gap: 10px;
 }
 .info_contairner div{
-    background-color: blue;
 }
 .info{
     text-align: center;
 }
-.sub_info{
+.sub_info_container{
+    background: url(./img/group16@2x.png);
+    background-position:right;
+    background-attachment: contain;
+    background-size:50%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
