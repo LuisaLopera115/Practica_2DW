@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+}
+.menu_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    gap: 10px;
+}
+
+.menu_container div{
+    background-color: aquamarine;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_container{
+    display: grid;
+    grid-template-columns: 2fr 4fr; 
+    grid-template-rows: 400px; 
+    gap: 20px;
+    margin: 10px;
+}
+
+.main_container div{
+    background-color: aquamarine;
+    padding: 1em;
+}
+.image{
+}
+.info_contairner{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    gap: 10px;
+}
+.info_contairner div{
+    background-color: blue;
+}
+.info{
+    text-align: center;
+}
+.sub_info{
+}
