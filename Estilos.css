@@ -9,14 +9,18 @@
 }
 
 .menu_container div{
-    background-color: aquamarine;
     padding: 1em;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+#notification{
+    justify-self: flex-end;
+}
+#car{
+    justify-self: flex-start;
+}
 .main_container{
     display: grid;
     grid-template-columns: 2fr 4fr; 
